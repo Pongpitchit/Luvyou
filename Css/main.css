@@ -9,12 +9,11 @@
 
 .header-bar{
 
-    
 }
 
 body {
     font-family: "Sriracha", cursive;
-    background-image: url('path-to-your-image.jpg');
+    background-image: url('/path-to-your-image.jpg');
     /* ใส่ path ของภาพที่ต้องการใช้ */
     background-position: center;
     background-size: cover;
@@ -249,7 +248,7 @@ body {
 }
 
 header {
-    background: url(Photo/Gasbee/อ้วน.jpg);
+    background: url(../Photo/Gasbee/อ้วน.jpg);
     height: fit-content;
     background-size: cover;
     background-position: center;
@@ -320,40 +319,40 @@ header {
     clear: both;
 }
 .box1 {
-    background-image: url("Photo/LuvM/1.JPG");
+    background-image: url("../Photo/LuvM/1.JPG");
 }
 .box2 {
-    background-image: url("Photo/LuvM/2.jpg");
+    background-image: url("../Photo/LuvM/2.jpg");
 }
 .box3 {
-    background-image: url("Photo/LuvM/3.JPG");
+    background-image: url("../Photo/LuvM/3.JPG");
 }
 .box4 {
-    background-image: url("Photo/LuvM/4.JPG");
+    background-image: url("../Photo/LuvM/4.JPG");
 }
 .box5 {
-    background-image: url("Photo/LuvM/5.jpg");
+    background-image: url("../Photo/LuvM/5.jpg");
 }
 .box6 {
-    background-image: url("Photo/LuvM/6.jpg");
+    background-image: url("../Photo/LuvM/6.jpg");
 }
 .box7 {
-    background-image: url("img/1.JPEG");
+    background-image: url("../img/1.JPEG");
 }
 .box8 {
-    background-image: url("img/2.JPEG");
+    background-image: url("../img/2.JPEG");
 }
 .box9 {
-    background-image: url("img/3.JPEG");
+    background-image: url("../img/3.JPEG");
 }
 .box10 {
-    background-image: url("img/4.JPG");
+    background-image: url("../img/4.JPG");
 }
 .box11 {
-    background-image: url("img/5.JPG");
+    background-image: url("../img/5.JPG");
 }
 .box12 {
-    background-image: url("img/6.JPG");
+    background-image: url("../img/6.JPG");
 }
 
 .card .box7,
@@ -408,7 +407,7 @@ header {
     align-items: center;
     margin: 2rem auto;
     padding: 2rem;
-    background-image: url('img/Time.JPEG');
+    background-image: url('../img/Time.JPEG');
     background-repeat: no-repeat; /* ห้ามให้รูปซ้ำ */
     background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
     background-size: cover; /* ปรับขนาดรูปให้เต็มพื้นที่ */
@@ -450,6 +449,16 @@ header {
     font-size: 1rem;
     color: #ffee00;
     margin-top: 1rem;
+}
+
+.footer-link {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+
 }
 
 

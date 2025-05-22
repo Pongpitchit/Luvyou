@@ -426,7 +426,7 @@ function anim() {
 
     // ใช้ setTimeout เพื่อให้เปลี่ยนหน้าไปหลังจากแอนิเมชันเสร็จ
     setTimeout(function () {
-      window.location.href = "page.html"; // เปลี่ยน URL เป็นหน้าที่ต้องการ
+      window.location.href = "main.html"; // เปลี่ยน URL เป็นหน้าที่ต้องการ
     }, 5000); // หน่วงเวลาสักครู่ก่อนเปลี่ยนหน้า
   }
 }
